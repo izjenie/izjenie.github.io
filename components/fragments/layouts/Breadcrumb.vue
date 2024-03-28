@@ -27,14 +27,4 @@ interface Props {
   links: LinkType[]
 }
 defineProps<Props>()
-// const links = [
-//   {
-//     label: 'News',
-//     href: '//news',
-//   },
-//   {
-//     label: 'Infraco',
-//     href: '//news/infraco',
-//   },
-// ]
 </script>

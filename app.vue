@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useServerSeoMeta({
-  title: 'Infraco',
-  description: 'Infraco website dashboard',
+  title: 'Nuxt App',
+  description: 'Nuxt App',
 })
 </script>
 <template>
