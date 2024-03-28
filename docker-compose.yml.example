@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    ports:
+      - '8000:3000'
+    networks:
+      - default
+    environment:
+      LOCALE_DEFAULT: id
+      NUXT_APP_BASE_URL: /
+      NUXT_DEBUG_CONTEXTS:
+      # datadog APM env
+      DD_API_KEY:
+      DD_SITE:
+      DD_TRACE_ENABLED: true
+      DD_TRACE_PROPAGATION_STYLE: datadog
+      DD_LOGS_ENABLED: true
+      # private env
+      NUXT_ENDPOINT_API: https://dummyjson.com
+      # public env
+      NUXT_PUBLIC_TOKEN:
+      # datadog RUM env
+      NUXT_PUBLIC_DDR_ON: 0
+      NUXT_PUBLIC_DDR_AID:
+      NUXT_PUBLIC_DDR_TOKEN:
+      NUXT_PUBLIC_DDR_SITE:
+      NUXT_PUBLIC_DDR_SVC:
+      NUXT_PUBLIC_DDR_ENV:
+      NUXT_PUBLIC_DDR_VER:
+
+networks:
+  default:
+    driver: bridge
