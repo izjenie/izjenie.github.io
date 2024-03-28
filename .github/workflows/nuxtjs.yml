@@ -11,12 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: corepack enable
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "20"
+      - name: Build docker images
+      - run: docker build -t local < .devcontainer/Dockerfile
+      #- uses: actions/setup-node@v3
+      #  with:
+      #    node-version: "20"
       # Pick your own package manager and build script
-      - run: npm install
-      - run: npx nuxt build --preset github_pages
+      #- run: npm install
+      #- run: npx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
