@@ -1,1 +1,0 @@
-import{o as t,c as o,b as n,w as c,_ as a,a as s}from"./entry.Zsxkrskk.js";import{_}from"./_plugin-vue_export-helper.DlAUqK2U.js";const r={},i=s("div",null,"suicide",-1);function d(u,l){const e=a;return t(),o("div",null,[n(e,{name:"landing"},{default:c(()=>[i]),_:1})])}const p=_(r,[["render",d]]);export{p as default};

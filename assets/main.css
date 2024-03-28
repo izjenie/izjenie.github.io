@@ -1,0 +1,61 @@
+@import url('keen-slider/keen-slider.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+:root {
+  font-family: 'Inter';
+  --font-family: 'Inter';
+}
+
+/* .markdown p,
+.markdown th,
+.markdown td,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply main-14px-400 md:main-20px-400 text-[#3A3A3A];
+}
+
+.markdown th,
+.markdown td {
+  @apply border-solid border-px border-grey-60 p-2;
+}
+
+.markdown h3 {
+  @apply main-20px-700 md:main-36px-700 text-[#3A3A3A];
+}
+
+.markdown h4 {
+  @apply main-12px-400 md:main-16px-400 text-[#8C8C8C];
+}
+
+.markdown img {
+  @apply w-full max-h-80;
+}
+
+.markdown li {
+  @apply list-disc ml-6;
+}
+
+.markdown a {
+  @apply main-14px-400 md:main-20px-400 text-[#0089B7] no-underline;
+} */
+
+.snackbar {
+  animation: fadein 0.5s forwards;
+}
+@keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 2.5rem;
+    opacity: 1;
+  }
+}

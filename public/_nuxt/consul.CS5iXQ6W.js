@@ -1,1 +1,0 @@
-import{o,c as t,b as n,w as c,_ as a,a as s}from"./entry.Zsxkrskk.js";import{_}from"./_plugin-vue_export-helper.DlAUqK2U.js";const r={},l=s("div",null,"consul",-1);function u(d,i){const e=a;return o(),t("div",null,[n(e,{name:"landing"},{default:c(()=>[l]),_:1})])}const p=_(r,[["render",u]]);export{p as default};
