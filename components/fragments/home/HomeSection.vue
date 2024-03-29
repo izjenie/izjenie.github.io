@@ -23,7 +23,10 @@
       <p class="inter-14-400-alt md:inter-16-400-alt mt-20 max-w-[25rem] text-center text-white">
         Layanan Hotline Kesehatan Mental dan Bunuh Diri Kementerian Kesehatan
       </p>
-      <NuxtImg src="/image/home/logo-kemkes-white.png" class="w-[8.5rem] mt-7" alt="kemkes" />
+      <div class="flex gap-8 items-center mt-7">
+        <NuxtImg src="/image/home/logo-kemkes-white.png" class="w-[8.5rem]" alt="kemkes" />
+        <NuxtImg src="/image/home/logo-rsmj-white.png" class="w-[4.5rem]" alt="rsmj" />
+      </div>
     </div>
     <TransitionRoot appear :show="isOpen" as="template">
       <Dialog as="div" class="relative z-50" @close="handleCloseModal">

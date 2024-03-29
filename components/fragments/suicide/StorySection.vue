@@ -42,16 +42,16 @@ const informationCardItems: InformationCardItemType[] = [
     href: 'https://www.youtube.com/watch?v=YDfveDILG_A',
   },
   {
-    title: 'Cerita Sidney Mohede',
-    subtitle: 'Dengarkan bagaimana Sidney Mohede menghadapi depresi di kehidupannya',
-    image: '/image/sidney-thumbnail.png',
-    href: 'https://www.youtube.com/watch?v=YDfveDILG_A',
+    title: 'Cerita Mora',
+    subtitle: 'Dengarkan bagaimana Mora menghadapi keinginannya untuk mengakhiri hidup',
+    image: '/image/mora-thumbnail.png',
+    href: 'https://www.youtube.com/watch?v=WLQrsHrZyFY',
   },
   {
-    title: 'Cerita Sidney Mohede',
-    subtitle: 'Dengarkan bagaimana Sidney Mohede menghadapi depresi di kehidupannya',
-    image: '/image/sidney-thumbnail.png',
-    href: 'https://www.youtube.com/watch?v=YDfveDILG_A',
+    title: 'Cerita Mas Adjie',
+    subtitle: 'Dengarkan bagaimana mas Adjie menghadapi masa berat dihidupnya',
+    image: '/image/adjie-thumbnail.png',
+    href: 'https://www.youtube.com/watch?v=eNt5qjuCJP4',
   },
 ]
 </script>
