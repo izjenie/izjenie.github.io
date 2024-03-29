@@ -25,8 +25,7 @@ interface ContactUsItemType {
 export const contactUsItems: ContactUsItemType[] = [
   {
     icon: '/icon/ic-location.svg',
-    label:
-      'Kawasan The Telkom Hub, Gedung Graha Merah Putih, lantai 6, Jl. Jenderal Gatot Subroto Kav.52, Kuningan Barat, Mampang Prapatan, Jakarta Selatan, Jakarta, Indonesia 12710',
+    label: 'location',
     href: '/',
     field: 'address',
     disable: true,
@@ -39,7 +38,7 @@ export const contactUsItems: ContactUsItemType[] = [
   },
   {
     icon: '/icon/ic-mail.svg',
-    label: 'telkom@email.com',
+    label: 'email@email.com',
     href: '/',
     field: 'email',
   },

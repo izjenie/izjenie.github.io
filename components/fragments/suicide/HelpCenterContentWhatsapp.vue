@@ -14,8 +14,12 @@
         {{ item }}
       </li>
     </ul>
-    <NuxtLink to="/" target="_blank" class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0">
-      <PrimaryCTA label="Call healing.id" :is-width-parent="true">
+    <NuxtLink
+      to="https://api.whatsapp.com/send/?phone=6281380073120&text=halo%20kak%2C%20saya%20ingin%20bercerita%20mengenai...&type=phone_number&app_absent=0"
+      target="_blank"
+      class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0"
+    >
+      <PrimaryCTA label="Chat via WhatsApp" :is-width-parent="true">
         <template #left-icon>
           <IcChatWa />
         </template>

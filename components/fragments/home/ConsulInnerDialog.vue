@@ -26,7 +26,11 @@
     </ul>
     <div class="flex flex-col md:flex-row gap-4 md:justify-between md:items-center mt-4 md:mt-6">
       <NuxtLink
-        :to="isWebsite ? 'https://www.healing119.id/' : '/'"
+        :to="
+          isWebsite
+            ? 'https://www.healing119.id/'
+            : 'https://api.whatsapp.com/send/?phone=6281380073120&text=halo%20kak%2C%20saya%20ingin%20bercerita%20mengenai...&type=phone_number&app_absent=0'
+        "
         target="_blank"
         class="w-full max-w-[17.5rem] relative"
       >
@@ -100,7 +104,7 @@ const whatsappActionItem = [
 const websiteFallbackActions: FallbackActionItemType[] = [
   {
     label: 'Chat WhatsApp',
-    href: '/',
+    href: 'https://api.whatsapp.com/send/?phone=6281380073120&text=halo%20kak%2C%20saya%20ingin%20bercerita%20mengenai...&type=phone_number&app_absent=0',
     icon: '/icon/suicide/ic-wa.svg',
   },
   {
