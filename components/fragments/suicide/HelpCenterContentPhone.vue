@@ -11,7 +11,7 @@
         {{ item }}
       </li>
     </ul>
-    <NuxtLink to="/" target="_blank" class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0">
+    <NuxtLink to="tel:119#8" target="_blank" class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0">
       <PrimaryCTA label="Hubungi 119 ext. 8" :is-width-parent="true">
         <template #left-icon>
           <IcPhoneWhite />

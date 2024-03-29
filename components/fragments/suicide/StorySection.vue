@@ -13,7 +13,7 @@
         <span class="block">Lihat cerita orang lain membuka diri tentang perjuangan mereka.</span>
       </p>
       <div class="w-[12.5rem] mt-6 mb-9">
-        <PrimaryCTA label="Lihat Semua" :is-width-parent="true" />
+        <!-- <PrimaryCTA label="Lihat Semua" :is-width-parent="true" /> -->
       </div>
       <div class="relative grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10 w-full">
         <VideoCard
@@ -31,30 +31,27 @@
 
 <script setup lang="ts">
 import type { InformationCardItemType } from '~/utils/global-type'
-import PrimaryCTA from '../common/PrimaryCTA.vue'
+// import PrimaryCTA from '../common/PrimaryCTA.vue'
 import VideoCard from './VideoCard.vue'
 
 const informationCardItems: InformationCardItemType[] = [
   {
-    title: 'Overcoming the stigma of depression',
-    subtitle:
-      'At only 16, Leo has come a long way in dealing with his depression. Listen as he talks with his dad, Marc about the need to treat the stigma around depression.',
-    image: '/image/dummy-thumbnail.png',
-    href: '/',
+    title: 'Cerita Sidney Mohede',
+    subtitle: 'Dengarkan bagaimana Sidney Mohede menghadapi depresi di kehidupannya',
+    image: '/image/sidney-thumbnail.png',
+    href: 'https://www.youtube.com/watch?v=YDfveDILG_A',
   },
   {
-    title: 'Overcoming the stigma of depression',
-    subtitle:
-      'At only 16, Leo has come a long way in dealing with his depression. Listen as he talks with his dad, Marc about the need to treat the stigma around depression.',
-    image: '/image/dummy-thumbnail.png',
-    href: '/',
+    title: 'Cerita Sidney Mohede',
+    subtitle: 'Dengarkan bagaimana Sidney Mohede menghadapi depresi di kehidupannya',
+    image: '/image/sidney-thumbnail.png',
+    href: 'https://www.youtube.com/watch?v=YDfveDILG_A',
   },
   {
-    title: 'Overcoming the stigma of depression',
-    subtitle:
-      'At only 16, Leo has come a long way in dealing with his depression. Listen as he talks with his dad, Marc about the need to treat the stigma around depression.',
-    image: '/image/dummy-thumbnail.png',
-    href: '/',
+    title: 'Cerita Sidney Mohede',
+    subtitle: 'Dengarkan bagaimana Sidney Mohede menghadapi depresi di kehidupannya',
+    image: '/image/sidney-thumbnail.png',
+    href: 'https://www.youtube.com/watch?v=YDfveDILG_A',
   },
 ]
 </script>

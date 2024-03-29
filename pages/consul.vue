@@ -4,7 +4,7 @@
       <section>
         <HeroSection />
       </section>
-      <section>
+      <section class="mt-20">
         <HelpCenter :is-consul="true" :initial-active-type="initialActiveType" />
       </section>
       <section class="mt-16 lg:mt-24">

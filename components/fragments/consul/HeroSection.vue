@@ -10,7 +10,7 @@
         kamu bisa mendapatkan rujukan kepada psikolog, psikiater atau perawat spesialis jiwa secara offline.
       </p>
     </div>
-    <NuxtImg src="/image/consul-hero.png" class="w-[31.25rem] mt-[-4rem] self-end" alt="background" format="webp" />
+    <NuxtImg src="/image/consul-hero.png" class="w-[31.25rem] self-end" alt="background" format="webp" />
   </div>
 </template>
 

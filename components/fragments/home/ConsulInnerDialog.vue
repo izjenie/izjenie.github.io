@@ -25,8 +25,12 @@
       </li>
     </ul>
     <div class="flex flex-col md:flex-row gap-4 md:justify-between md:items-center mt-4 md:mt-6">
-      <NuxtLink :to="isWebsite ? '/' : '/'" target="_blank" class="w-full max-w-[17.5rem] relative">
-        <PrimaryCTA :label="isWebsite ? 'Call via healing119.id' : 'Chat via Whatsapp'" :is-width-parent="true">
+      <NuxtLink
+        :to="isWebsite ? 'https://www.healing119.id/' : '/'"
+        target="_blank"
+        class="w-full max-w-[17.5rem] relative"
+      >
+        <PrimaryCTA :label="isWebsite ? 'Call via healing119.id' : 'Chat Whatsapp'" :is-width-parent="true">
         </PrimaryCTA>
       </NuxtLink>
       <NuxtLink
@@ -69,11 +73,11 @@ interface FallbackActionItemType {
 
 const consultabSelectorItem: ConsultabSelectorItemType[] = [
   {
-    label: 'Call via Website',
+    label: 'Call healing119.id',
     value: 'webiste',
   },
   {
-    label: 'Chat via WhatsApp',
+    label: 'Chat WhatsApp',
     value: 'whatsapp',
   },
 ]
@@ -95,26 +99,26 @@ const whatsappActionItem = [
 ]
 const websiteFallbackActions: FallbackActionItemType[] = [
   {
-    label: 'Chat via WhatsApp',
+    label: 'Chat WhatsApp',
     href: '/',
     icon: '/icon/suicide/ic-wa.svg',
   },
   {
-    label: 'Call via 119',
-    href: '/',
+    label: '119 ext. 8',
+    href: 'tel:119#8',
     icon: '/icon/suicide/ic-phone.svg',
   },
 ]
 
 const whatsappFallbackActions: FallbackActionItemType[] = [
   {
-    label: 'Chat via WhatsApp',
-    href: '/',
-    icon: '/icon/suicide/ic-wa.svg',
+    label: 'Call healing119.id',
+    href: 'https://www.healing119.id/',
+    icon: '/icon/suicide/ic-chat-alt.svg',
   },
   {
-    label: 'Krisis Bunuh Diri 119',
-    href: '/',
+    label: '119 ext. 8',
+    href: 'tel:119#8',
     icon: '/icon/suicide/ic-phone.svg',
   },
 ]

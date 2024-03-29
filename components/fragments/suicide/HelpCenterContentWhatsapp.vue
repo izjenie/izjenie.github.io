@@ -1,9 +1,9 @@
 <template>
   <div class="relative">
     <p class="inter-14-400-alt md:inter-16-400-alt text-black">Layanan Darurat <span class="font-bold">24 jam</span></p>
-    <h3 class="mt-4 merri-20-700 lg:merri-30-700 text-black mb-4">
-      Bicara dengan konselor kami jika mengalami
-      <span class="text-[#007474]"> kecemasan, putus asa, hampa berlebih </span>
+    <h3 class="mt-4 merri-20-700 lg:merri-30-700 max-w-[40rem] text-black mb-4">
+      Bicara dengan konselor kami jika merasa
+      <span class="text-[#007474]"> kondisi mentalmu sedang tidak baik </span>
     </h3>
     <p v-for="item in helpPoint" :key="item" class="text-black inter-14-400 lg:inter-18-400">{{ item }}</p>
     <p class="text-black inter-16-500 md:inter-20-500 mt-8">
@@ -29,8 +29,8 @@ import IcChatWa from '~/components/elements/icons/IcChatWa.vue'
 import PrimaryCTA from '../common/PrimaryCTA.vue'
 
 const helpPoint = [
-  '✔️ Gejala kecemasan, putus asa, rendah diri, hampa, dan tidak berharga secara berlebih merupakan kondisi yang tidak sehat,',
-  '✔️ Banyak faktor yang menyebabkan kondisi tersebut, seperti hubungan sosial atau genetik',
+  '✔️ Bercerita dengan konselor profesional dapat membuatmu merasa lebih baik',
+  '✔️ Cari tahu langkah yang tepat untuk mendapatkan hidup yang lebih berkualitas',
 ]
 
 const actionItem = [

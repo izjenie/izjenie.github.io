@@ -12,7 +12,7 @@
         Akan selalu ada secercah cahaya dan harapan dalam ceritamu. Jangan menyerah
       </p>
     </div>
-    <NuxtImg src="/image/suicide-hero.png" class="w-[31.25rem] mt-[-4rem] self-end" alt="background" format="webp" />
+    <NuxtImg src="/image/suicide-hero.png" class="w-[31.25rem] self-end" alt="background" format="webp" />
   </div>
 </template>
 

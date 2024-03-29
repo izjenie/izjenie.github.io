@@ -4,7 +4,7 @@
       <section>
         <HeroSection />
       </section>
-      <section>
+      <section class="mt-20">
         <HelpCenter />
       </section>
       <section class="mt-16 lg:mt-24">

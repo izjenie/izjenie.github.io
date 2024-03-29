@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useServerSeoMeta({
-  title: 'Nuxt App',
-  description: 'Nuxt App',
+  title: 'Healing 119',
+  description: 'Healing 119',
 })
 </script>
 <template>
