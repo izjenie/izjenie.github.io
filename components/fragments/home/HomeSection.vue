@@ -24,8 +24,7 @@
         Layanan Hotline Kesehatan Mental dan Bunuh Diri Kementerian Kesehatan
       </p>
       <div class="flex gap-8 items-center mt-7">
-        <NuxtImg src="/image/home/logo-kemkes-white.png" class="w-[8.5rem]" alt="kemkes" />
-        <NuxtImg src="/image/home/logo-rsmj-white.png" class="w-[4.5rem]" alt="rsmj" />
+        <NuxtImg src="/image/home/logo-kemkes-rsmj.png" class="w-[11.25rem]" alt="kemkes" />
       </div>
     </div>
     <TransitionRoot appear :show="isOpen" as="template">
