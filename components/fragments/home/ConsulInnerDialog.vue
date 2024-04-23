@@ -109,7 +109,7 @@ const websiteFallbackActions: FallbackActionItemType[] = [
   },
   {
     label: '119 ext. 8',
-    href: 'tel:119#8',
+    href: 'tel:119',
     icon: '/icon/suicide/ic-phone.svg',
   },
 ]
@@ -122,7 +122,7 @@ const whatsappFallbackActions: FallbackActionItemType[] = [
   },
   {
     label: '119 ext. 8',
-    href: 'tel:119#8',
+    href: 'tel:119',
     icon: '/icon/suicide/ic-phone.svg',
   },
 ]

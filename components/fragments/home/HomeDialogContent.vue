@@ -8,7 +8,7 @@
           : 'Anda akan terhubung dengan layanan konseling'
       }}
       <span v-if="isSuicide" class="text-[#03799A]">
-        <NuxtLink to="tel:119#8" target="_blank" class="no-underline"> 119 ext. 8 </NuxtLink>
+        <NuxtLink to="tel:119" target="_blank" class="no-underline"> 119 ext. 8 </NuxtLink>
       </span>
       <span v-else class="text-[#03799A]">
         <NuxtLink to="https://www.healing119.id/" target="_blank" class="no-underline"> Website </NuxtLink>
@@ -41,7 +41,7 @@
         </li>
       </ul>
       <div class="flex flex-col md:flex-row gap-4 md:justify-between md:items-center mt-4 md:mt-6">
-        <NuxtLink to="tel:119#8" target="_blank" class="w-full max-w-[17.5rem] relative">
+        <NuxtLink to="tel:119" target="_blank" class="w-full max-w-[17.5rem] relative">
           <PrimaryCTA label="Hubungi 119 ext. 8" :is-width-parent="true">
             <template #left-icon>
               <IcPhoneWhite />

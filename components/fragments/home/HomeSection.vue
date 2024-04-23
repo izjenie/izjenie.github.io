@@ -16,7 +16,8 @@
         />
         <CTAHome
           title="Saya butuh cerita dengan seseorang ->"
-          subtitle="Konseling via healing119.id atau WhatsApp"
+          subtitle="Konseling via WhatsApp"
+          icon-url="/icon/ic-wa-original.svg"
           @on-click="() => handleOpenDialog('consul')"
         />
       </div>
