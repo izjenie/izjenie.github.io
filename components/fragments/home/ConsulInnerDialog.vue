@@ -28,7 +28,7 @@
       <NuxtLink
         :to="
           isWebsite
-            ? 'https://www.healing119.id/'
+            ? 'https://vcall-chat.mala-widiyanto.workers.dev/set-username'
             : 'https://api.whatsapp.com/send/?phone=6281380073120&text=halo%20kak%2C%20saya%20ingin%20bercerita%20mengenai...&type=phone_number&app_absent=0'
         "
         target="_blank"

@@ -11,7 +11,11 @@
         {{ item }}
       </li>
     </ul>
-    <NuxtLink to="tel:119" target="_blank" class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0">
+    <NuxtLink
+      to="https://vcall-chat.mala-widiyanto.workers.dev/set-username"
+      target="_blank"
+      class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0"
+    >
       <PrimaryCTA label="Hubungi 119 ext. 8" :is-width-parent="true">
         <template #left-icon>
           <IcPhoneWhite />
