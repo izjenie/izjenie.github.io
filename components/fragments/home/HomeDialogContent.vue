@@ -41,11 +41,7 @@
         </li>
       </ul>
       <div class="flex flex-col md:flex-row gap-4 md:justify-between md:items-center mt-4 md:mt-6">
-        <NuxtLink
-          to="https://vcall-chat.mala-widiyanto.workers.dev/set-username"
-          target="_blank"
-          class="w-full max-w-[17.5rem] relative"
-        >
+        <NuxtLink to="https://call.healing119.id/voip-web/" target="_blank" class="w-full max-w-[17.5rem] relative">
           <PrimaryCTA label="Hubungi 119 ext. 8" :is-width-parent="true">
             <template #left-icon>
               <IcPhoneWhite />
@@ -111,7 +107,7 @@ const suicideFallbackActions: FallbackActionItemType[] = [
   },
   {
     label: 'Chat healing119.id',
-    href: 'https://vcall-chat.mala-widiyanto.workers.dev/set-username',
+    href: 'https://call.healing119.id/voip-web/',
     icon: '/icon/suicide/ic-chat.svg',
   },
 ]
