@@ -14,7 +14,11 @@
         {{ item }}
       </li>
     </ul>
-    <NuxtLink to="/" target="_blank" class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0">
+    <NuxtLink
+      to="https://call.healing119.id/voip-web/"
+      target="_blank"
+      class="w-full max-w-[17.5rem] relative mt-4 block mx-auto md:mx-0"
+    >
       <PrimaryCTA label="Call healing.id" :is-width-parent="true">
         <template #left-icon>
           <IcPhoneWhite />

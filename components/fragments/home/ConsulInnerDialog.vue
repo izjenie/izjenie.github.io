@@ -32,7 +32,7 @@
             : 'https://api.whatsapp.com/send/?phone=6281380073120&text=halo%20kak%2C%20saya%20ingin%20bercerita%20mengenai...&type=phone_number&app_absent=0'
         "
         target="_blank"
-        class="w-full max-w-[17.5rem] relative pointer-events-none"
+        class="w-full max-w-[17.5rem] relative"
       >
         <PrimaryCTA :label="isWebsite ? 'Call via healing119.id' : 'Chat Whatsapp'" :is-width-parent="true">
         </PrimaryCTA>
@@ -117,7 +117,7 @@ const websiteFallbackActions: FallbackActionItemType[] = [
 const whatsappFallbackActions: FallbackActionItemType[] = [
   {
     label: 'Call healing119.id',
-    href: 'https://www.healing119.id/',
+    href: 'https://call.healing119.id/voip-web/',
     icon: '/icon/suicide/ic-chat-alt.svg',
   },
   {

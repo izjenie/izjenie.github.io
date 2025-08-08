@@ -8,7 +8,7 @@
           : 'Anda akan terhubung dengan layanan konseling'
       }}
       <span v-if="isSuicide" class="text-[#03799A]">
-        <NuxtLink to="tel:119" target="_blank" class="no-underline"> 119 ext. 8 </NuxtLink>
+        <NuxtLink to="https://call.healing119.id/voip-web/" target="_blank" class="no-underline"> 119 ext. 8 </NuxtLink>
       </span>
       <span v-else class="text-[#03799A]">
         <NuxtLink to="https://www.healing119.id/" target="_blank" class="no-underline"> Website </NuxtLink>
@@ -106,7 +106,7 @@ const suicideFallbackActions: FallbackActionItemType[] = [
     icon: '/icon/suicide/ic-wa.svg',
   },
   {
-    label: 'Chat healing119.id',
+    label: 'Call healing119.id',
     href: 'https://call.healing119.id/voip-web/',
     icon: '/icon/suicide/ic-chat.svg',
   },

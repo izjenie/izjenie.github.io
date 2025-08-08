@@ -5,14 +5,16 @@
     <p class="text-white inter-16-400 !leading-[1.5] xl:inter-20-400">
       Darurat krisis bunuh diri, <span class="font-medium">hubungi </span>
       <span>
-        <NuxtLink to="tel:119" target="_blank" class="font-medium underline">119 ext. 8 </NuxtLink>
+        <NuxtLink to="https://call.healing119.id/voip-web/" target="_blank" class="font-medium underline"
+          >119 ext. 8
+        </NuxtLink>
       </span>
     </p>
     <div class="flex flex-col md:flex-row md:gap-2.5">
       <p class="text-white inter-16-400 !leading-[1.5] xl:inter-20-400">Layanan konseling 24 jam •</p>
       <p class="text-white inter-16-400 !leading-[1.5] xl:inter-20-400">
         <span>
-          <NuxtLink to="https://www.healing119.id/" target="_blank" class="font-medium underline mr-4"
+          <NuxtLink to="https://call.healing119.id/voip-web/" target="_blank" class="font-medium underline mr-4"
             >Call healing119.id</NuxtLink
           >
         </span>
